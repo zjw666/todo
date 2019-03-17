@@ -1,0 +1,14 @@
+{
+	"presets":[
+		[
+			"env",
+			{
+				"target": ">0.5%, last 5 versions, not dead"
+			}
+		]
+	],
+
+	"plugins":[
+		"babel-plugin-transform-runtime"
+	]
+}

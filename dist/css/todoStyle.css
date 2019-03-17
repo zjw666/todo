@@ -1,0 +1,66 @@
+#app {
+  margin: 0 auto;
+  width: 800px;
+  border: 1px solid #ddd;
+}
+h2 {
+  text-align: center;
+}
+form {
+  text-align: center;
+  font-size: 20px;
+}
+form #inputbox {
+  font-size: 18px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 1px 3px;
+}
+form button {
+  margin-left: 10px;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  background-color: #1E90FF;
+  border-radius: 5px;
+  color: white;
+}
+form button:hover {
+  background: #5599FF;
+}
+form button::-moz-focus-inner {
+  border: 0;
+}
+#datebox {
+  font-size: 18px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 1px 3px;
+}
+#list {
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  margin: 10px 5%;
+}
+.time {
+  float: right;
+}
+.close {
+  float: right;
+  color: white;
+  background-color: black;
+  margin-left: 15px;
+  line-height: 17px;
+  padding-bottom: 3px;
+  width: 21px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close:hover {
+  background-color: red;
+}
+li {
+  padding: 7px 20px 7px 0;
+  border-bottom: 1px solid white;
+}

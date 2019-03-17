@@ -1,0 +1,40 @@
+@font_size: 18px;
+
+
+
+h2{
+	text-align: center;
+}
+
+form{
+	text-align: center;
+
+	font-size: @font_size + 2;
+
+	#inputbox{
+		.input;
+	}
+
+	button{
+		margin-left: 10px;
+		font-size: @font_size;
+		outline: none;
+		cursor: pointer;
+		background-color: #1E90FF;
+		border-radius: 5px;
+		color: white;
+		&:hover{
+			background: #5599FF;
+		}
+		&::-moz-focus-inner{ 
+			border: 0; 
+		}
+	}
+}
+
+.input(@box_width:250px){
+	font-size: @font_size;
+	width: @box_width;
+	border-radius: 5px;
+	padding: 1px 3px;
+}
